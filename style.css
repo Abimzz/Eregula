@@ -186,7 +186,7 @@ header{
 }
 .reason{
     padding-bottom: 1.5rem;
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 /* RESPONSIVE DESIGN */
@@ -373,8 +373,7 @@ header{
     max-width: 1110px;
     margin: 0 auto;
 }
-.container--pall{
-    /* padding-top: 4.375rem; */
+.container--pall {
     padding-right: 1.5rem;
     padding-bottom: 4.375rem;
     padding-left: 1.5rem;
@@ -385,7 +384,7 @@ header{
     gap: 1.875rem;
     padding: 1rem 0;
 }
-@media (max-width: 1202px) {
+@media (max-width: 920px) {
     .article__grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -407,7 +406,8 @@ header{
     height: 12.5rem;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
+    filter: grayscale(90%);
 }
 .article__text {
     padding: 1.875rem 1.5625rem;
@@ -434,6 +434,7 @@ header{
     margin-bottom: 0.5rem;
 }
 .article__description {
+    color: #2d314d;
     font-size: 0.8125rem;
 }
 
@@ -450,17 +451,4 @@ header{
 }
 .social{
     padding-left: 20px;
-}
-
-
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
-}
-@media (max-width: 768px) {
-
-}
-@media (max-width: 576px) {
-
 }
